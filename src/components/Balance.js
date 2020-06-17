@@ -9,7 +9,7 @@ export const Balance = () => {
 
     return (
         <div id='Balancestyle'>
-            <h4>Balance</h4>
+            <h1>Balance</h1>
             <h1>{total}</h1>
         </div >
     )
