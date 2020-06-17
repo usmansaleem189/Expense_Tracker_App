@@ -43,7 +43,7 @@ export const AddTransactions = () => {
                 <div className="form-control">
                     <label htmlFor="amount"
                     >Amount <br />
-            (Sign <em>(i.e. <math>+/-</math>)</em> will not make a difference. Absolute value will be taken. Chose <em>'Add Income'</em> or <em>'Add Expense'</em> accordingly)</label
+            (Sign <em>(i.e. +/-)</em> will not make a difference. Absolute value will be taken. Chose <em>'Add Income'</em> or <em>'Add Expense'</em> accordingly)</label
                     >
                     <input type="number" value = {amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
                 </div>
